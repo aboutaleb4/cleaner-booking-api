@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanerBooking", "CleanerBooking\CleanerBooking.csproj", "{35511615-E9B1-4F35-A845-0BDE5C0483C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{C24C2264-694B-49B4-8AF5-F25C02F88271}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainTesting", "DomainTesting\DomainTesting.csproj", "{B501D22E-2407-455D-8F67-6F9C5E920C04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{2DED62DF-381A-4B0C-B7F7-169087188907}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,16 @@ Global
 		{35511615-E9B1-4F35-A845-0BDE5C0483C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35511615-E9B1-4F35-A845-0BDE5C0483C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35511615-E9B1-4F35-A845-0BDE5C0483C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C24C2264-694B-49B4-8AF5-F25C02F88271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C24C2264-694B-49B4-8AF5-F25C02F88271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C24C2264-694B-49B4-8AF5-F25C02F88271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C24C2264-694B-49B4-8AF5-F25C02F88271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B501D22E-2407-455D-8F67-6F9C5E920C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B501D22E-2407-455D-8F67-6F9C5E920C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B501D22E-2407-455D-8F67-6F9C5E920C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B501D22E-2407-455D-8F67-6F9C5E920C04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B501D22E-2407-455D-8F67-6F9C5E920C04} = {2DED62DF-381A-4B0C-B7F7-169087188907}
 	EndGlobalSection
 EndGlobal
