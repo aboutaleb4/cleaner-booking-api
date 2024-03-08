@@ -9,7 +9,7 @@ public class CleanerTests
     [Fact]
     public void DomainTest()
     {
-        var cleaner = new Cleaner("Ahmed");
-        cleaner.Should().BeEquivalentTo(new Cleaner("Ahmed"));
+        var cleaner = new Cleaner(1, "Ahmed");
+        cleaner.Should().BeEquivalentTo(new Cleaner(1, "Ahmed"));
     }
 }

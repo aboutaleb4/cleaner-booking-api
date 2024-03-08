@@ -1,15 +1,18 @@
 ﻿namespace Domain;
 
-public class Cleaner
+public interface ICleaner
 {
-    public Cleaner()
-    {
-        
-    }
     
-    public Cleaner(string name)
+}
+
+public class Cleaner : ICleaner
+{
+    public Cleaner(int id, string name)
     {
         Name = name;
+        Id = id;
     }
     public string Name { get; set; }
+    
+    public int Id { get; set; }
 }
