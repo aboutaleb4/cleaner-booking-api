@@ -1,3 +1,6 @@
+using Domain;
+using Repository;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -5,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddScoped<ICleanerRepository, CleanerRepository>();
 builder.Services.AddControllers(); // Add this line to add controller services
 var app = builder.Build();
 
@@ -43,6 +47,7 @@ app.MapGet("/weatherforecast", () =>
     })
     .WithName("GetWeatherForecast")
     .WithOpenApi();
+
 
 app.Run();
 

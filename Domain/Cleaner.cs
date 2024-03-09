@@ -7,11 +7,11 @@ public interface ICleaner
 
 public class Cleaner : ICleaner
 {
-    public Cleaner(int id, string name)
+    public Cleaner(string name)
     {
         Name = name;
-        Id = id;
     }
+
     public string Name { get; set; }
     
     public int Id { get; set; }

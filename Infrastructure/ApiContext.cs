@@ -10,6 +10,11 @@ public class ApiContext : DbContext
         Cleaners = cleaners;
     }
 
+    public ApiContext()
+    {
+        
+    }
+
     protected override void OnConfiguring
         (DbContextOptionsBuilder optionsBuilder)
     {
